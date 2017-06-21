@@ -1,0 +1,6 @@
+go-services.dev:80 {
+    tls off
+    proxy /api api:3000 {
+
+    }
+}
